@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Categorias</title>
+  </head>
+  <body>
+    <header>
+      <h1
+        style="color: rgb(187, 61, 187); text-align: center; font-weight: bold"
+        id="top"
+      >
+        Faceless Void
+      </h1>
+      <hr />
+      <nav>
+        <a href="/index.html">Inicio</a> |
+        <a href="/links/productos.html">Productos</a> |
+        <a href="/links/contactos.html">Contactos</a> |
+        <a href="/links/encuentranos.html">Encuentranos</a>
+        <!-- <a href="/links/comprar.html">Comprar</a> -->
+      </nav>
+      <hr />
+    </header>
+    <div>
+      <h1>Comprar ropa:</h1>
+      <p>Rellene el formulario porfavor.</p>
+      <div>
+        <form action="https://formspree.io/f/mrgrgnay" method="post">
+          <label for="name_input">Nombre:</label>
+          <input
+            type="text"
+            name="name_input_name"
+            id="name_input"
+            placeholder="Pon tu nombre"
+            maxlength="15"
+            required
+          />
+          <!--value="PEPITO"-->
+          <br />
+          <br />
+          <label for="message_input">Mensaje:</label>
+          <textarea
+            name="message_input_name"
+            id="message_input"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <br />
+
+          <!-- <p>Forma de pago:</p> -->
+          <label for="Forma_pago">Forma de pago:</label>
+          <select name="Forma_pago_name" id="Forma_pago">
+            <option value="Paypal">Paypal</option>
+            <option value="Banco Union" selected>Banco Union</option>
+            <option value="Banco BNB">Banco BNB</option>
+          </select>
+          <br />
+
+          <p>Talla:</p>
+          <input type="checkbox" name="talla" id="talla_s" value="S" />
+          <label for="talla_s">S</label>
+          <input type="checkbox" name="talla" id="talla_x" value="X" checked />
+          <label for="talla_x">X</label>
+          <input type="checkbox" name="talla" id="talla_l" value="L" />
+          <label for="talla_l">L</label>
+          <br />
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div>
+      <footer>
+        <p>
+          Autor: Fabio Copa<br />
+          <a href="mailto:daho.copa@ucb.edu.bo">daho.copa@ucb.edu.bo</a>
+        </p>
+      </footer>
+    </div>
+    <!-- Volver al inicio -->
+    <div>
+        <p>Ir a inicio: <a href="../index.html">Inicio</a></p>
+        <p>Ir hacia arriba: <a href="#top">Arriba</a></p>
+      </div>
+      <br />
+  </body>
+</html>
